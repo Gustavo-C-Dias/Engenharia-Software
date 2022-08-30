@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void main (){
+void main(){
 
     char nome[30], pais[30];
     int idade;
