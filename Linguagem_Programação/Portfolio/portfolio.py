@@ -1,6 +1,5 @@
 import sqlite3
 import matplotlib.pyplot as plt
-import numpy as np
 
 def banco_dado (imc, peso, altura):
     conexao = sqlite3.connect('user.bd')
@@ -45,7 +44,6 @@ def banco_dado (imc, peso, altura):
         plt.show()
 
         conexao.close()
-
 
     cadastro = int(input("Já possui cadastro ? \n  1 - Sim \n  2 - Não \n"))
 
